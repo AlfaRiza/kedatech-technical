@@ -1,0 +1,16 @@
+.button {
+  @apply px-10 py-3 rounded-md flex justify-center items-center cursor-pointer;
+}
+
+.button.button-primary {
+  @apply bg-tersier;
+  @apply text-white;
+}
+
+.button.button-secondary {
+  @apply border border-tersier bg-white;
+  @apply text-tersier;
+  @apply hover:bg-tersier;
+  @apply hover:text-white;
+  @apply ease-in duration-300;
+}
